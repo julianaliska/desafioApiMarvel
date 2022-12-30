@@ -1,7 +1,7 @@
 # desafioApiMarvel
 
 Requisitos para rodar a aplicação:
-- PHP 7.4 ou mais para rodar o PHPUnit
+- PHP 7.4
 - Servidor Web, foi utiizado o Apache 2.4 para criação
 - Um navegador
 

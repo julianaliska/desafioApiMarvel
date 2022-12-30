@@ -1,8 +1,8 @@
 <?php
 
         $tempo = time();
-        $chavePrivada = "33d26a5cb9ca85a4ab3b9e13cc93fa48c6ef33c3"; 
-        $chavePublica = "523905dba1a1b028479adc6c0b8918b5"; 
+        $chavePrivada = "Sua chave privada vai aqui"; 
+        $chavePublica = "Sua chave pública vai aqui"; 
         $hash = md5("$tempo$chavePrivada$chavePublica");
         $url = "https://gateway.marvel.com:443/v1/public/characters?name=Hulk&ts=$tempo&apikey=$chavePublica&hash=$hash";
         $curl = curl_init();

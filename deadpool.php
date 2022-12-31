@@ -1,6 +1,4 @@
 <?php
-
-require ("dados.php");
     
 class deadpool{    
 

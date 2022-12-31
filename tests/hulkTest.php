@@ -2,7 +2,7 @@
 require_once 'hulk.php';
 require_once PHPUnit_Framework_TestCase;
 
-class hulkTest extends PHPUnit_Framework_MockObject_Matcher
+class hulkTest extends PHPUnit_Framework_TestCase
 {
 
     
